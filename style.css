@@ -1,0 +1,137 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pageContainer {
+    width: 80%;
+    margin: 20pt auto 0 auto;
+    max-width: 900pt;
+}
+
+.headerImageContainer {
+    margin-bottom: 30pt;
+    max-width: 500pt;
+    margin: 0 auto 0 auto;
+}
+
+.headerImageContainer img {
+    width: 100%;
+}
+
+.menuContainer {
+    width: 100%;
+    /* height: 200pt */
+    margin: 0 auto 0 auto;
+    text-align: center;
+    margin-bottom: 30pt;
+}
+
+.menuItem {
+    font-weight: bold;
+    display: inline-block;
+    padding: 5pt 15pt 5pt 15pt;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: #444444;
+}
+
+.mainText {
+    margin-top: 20pt;
+}
+
+video {
+    width: 90%;
+    display: inline-block;
+    margin: 0 0 0 6%;
+    /* max-width: 500pt; */
+    max-height: 300pt;
+}
+
+.footerContainer {
+    width: 80%;
+    text-align: center;
+    font-size: 0.8em;
+    margin: 50pt auto 0 auto;
+    padding-bottom: 50pt;
+}
+
+
+.socialContainer {
+    margin: 20pt 0 20pt 0;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.socialContainer:visited {
+    color: inherit;
+}
+
+.socialIcon {
+    display: inline-block;
+    width: 40pt;
+    height: 40pt;
+    background-size: contain;
+}
+
+.socialLink {
+    /* font-weight: bold; */
+    font-size: 1.2em;
+    margin-left: 15pt;
+    vertical-align: 12pt;
+    display: inline-block;
+}
+
+
+
+#facebook {
+    background-image: url('media/social/fb.svg')
+}
+
+#twitter {
+    background-image: url('media/social/tw.svg')
+}
+
+#linkedin {
+    background-image: url('media/social/li.svg')
+}
+
+#email {
+    background-image: url('media/social/em.svg')
+}
+
+#instagram {
+    background-image: url('media/social/in.svg')
+}
+
+@media(max-width: 800pt) {
+    body {
+        font-size: 1.3em;
+    }
+
+    .menuItem {
+        font-size: 1.3em;
+    }
+
+    .pageContainer {
+        width: 90%;
+        margin: 20pt auto 0 auto;
+    }
+    
+    .footerContainer {
+        width: 90%;
+        margin: 120pt auto 0 auto;
+    }
+
+    .headerImageContainer {
+        margin: 30pt auto 10pt auto;
+        width: 100%;
+        max-width: none;
+    }
+
+    p {
+        margin-top: 30pt;
+        font-size: 1em;
+    }
+    
+}
