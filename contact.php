@@ -12,7 +12,7 @@ getPageContainer()
     If you would like more information about our product, you can contact us or check out our social media channels below.
 </div>
 
-<a class="socialContainer" href=''>
+<a class="socialContainer" href='mailto:info@peroxigen.com'>
     <div class='socialIcon' id='email'></div>
     <div class='socialLink' >Email</div>
 </a>
@@ -32,10 +32,10 @@ getPageContainer()
     <div class='socialLink'>LinkedIn</div>
 </a>
 
-<a class="socialContainer" href=''>
+<!-- <a class="socialContainer" href=''>
     <div class='socialIcon' id='instagram'></div>
     <div class='socialLink'>Instagram</div>
-</a>
+</a> -->
 
 
 <?php

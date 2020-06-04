@@ -37,6 +37,7 @@ html, body {
 
 .mainText {
     margin-top: 20pt;
+    font-size: 1.2em;
 }
 
 video {
@@ -72,15 +73,16 @@ video {
     width: 40pt;
     height: 40pt;
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .socialLink {
     /* font-weight: bold; */
     font-size: 1.2em;
     margin-left: 15pt;
-    vertical-align: 12pt;
     display: inline-block;
-}
+    vertical-align: 15pt;
+    line-height: 40pt;}
 
 
 
@@ -104,13 +106,26 @@ video {
     background-image: url('media/social/in.svg')
 }
 
+.videoCaption {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.introText {
+    text-align: center;
+    font-weight: bold;
+    color: #1c1c99;
+}
+
 @media(max-width: 800pt) {
     body {
         font-size: 1.3em;
     }
 
     .menuItem {
-        font-size: 1.3em;
+        font-size: 1em;
+        padding: 5pt 2% 5pt 2%;
     }
 
     .pageContainer {
